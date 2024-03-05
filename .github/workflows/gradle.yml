@@ -37,4 +37,4 @@ jobs:
       run: ./gradlew jar
 
     - name: voer uit with Gradle Wrapper
-      run: java -cp "build/libs/Calculator-1.0-SNAPSHOT.jar;." be.kuleuven.HelloName "Warre"
+      run: java -cp "build/libs/Calculator-1.0-SNAPSHOT.jar;." be.kuleuven.Calculator "Warre"
